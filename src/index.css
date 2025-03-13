@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG1vdmllJTIwYmFja2dyb3VuZCUyMGltYWdlfGVufDB8fHx8MTYyMjY5MjY0Nw&ixlib=rb-1.2.1&q=80&w=1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
