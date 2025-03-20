@@ -10,7 +10,7 @@ function Movie() {
     const [searchTerm, setSearchTerm] = useState("");
 
     useEffect(() => {
-        fetch("https://json-server-vercel-gamma-beryl.vercel.app/films")
+        fetch("https://nextwatch-db.vercel.app/films")
             .then((res) => res.json())
             .then((movies) => setMovies(movies));
     }, []);
